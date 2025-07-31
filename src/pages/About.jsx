@@ -9,14 +9,13 @@ const About = () => {
         <div className="w-full md:w-1/2">
           <div className="h-80 bg-gray-200 rounded-xl overflow-hidden shadow-md">
             <img
-              src="/public/job-bg.jpg"
+              src="public/job-bg.jpg"
               alt="About us"
               className="w-full h-full object-cover"
             />
           </div>
         </div>
 
-        {/* Text Area */}
         <div className="w-full md:w-1/2">
           <h2 className="text-3xl font-bold text-black mb-4">About Us</h2>
           <p className="text-gray-600 text-base leading-relaxed mb-4">

@@ -9,7 +9,7 @@ export function JobProvider( {children} ){
     useEffect(()=>{
      const  fetchJobs = async  () => {
             try{
-                const res = await fetch('/jobs.json');
+                const res = await fetch('public/jobs.json');
                 const data = await res.json()
                 setJobs(data);
                 setLoading(false)

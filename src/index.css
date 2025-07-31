@@ -67,3 +67,10 @@ button:focus-visible {
   }
 } */
 @import "tailwindcss";
+html {
+  scroll-behavior: smooth;
+}
+
+.text{
+ background-color: rgba(163, 163, 163, 0.37);
+}

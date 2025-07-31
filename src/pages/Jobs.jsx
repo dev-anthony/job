@@ -4,7 +4,7 @@ function Jobs() {
   return (
     <div>
       Jobs
-    </div>
+      </div>
   )
 }
 

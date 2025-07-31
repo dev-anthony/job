@@ -13,10 +13,10 @@ const NavBar = () => {
       </div>
       <nav  className=' justify-between items-center font-bold hidden sm:flex gap-6 '>
         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/">Home</Link>
-         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/jobs">Jobs</Link>
-         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/blog">Blog</Link>
-         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/about">About</Link>
-         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/contact">Contact</Link>
+         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/">Jobs</Link>
+         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/">Blog</Link>
+         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/">About</Link>
+         <Link className='hover:text-blue-500 transition-all duration-400 ease-in-out' to="/">Contact</Link>
       </nav>
       <div>
         <button className='bg-blue-500 px-4 py-1.5 hover:bg-blue-600 transition:color duration-500 hidden sm:block'>

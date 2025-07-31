@@ -41,10 +41,11 @@ const JobCard = () => {
   if (jobs.length === 0) return <p className="text-center py-10">No jobs available</p>
 
   return (
-    <div className="p-6 bg-gray-50 min-h-screen">
-      <h2 className="text-2xl font-bold mb-6 text-gray-800">Featured Jobs</h2>
+    <div className="p-8 bg-gray-100 min-h-[90vh]">
+      <h2 className="text-2xl font-bold sm:text-4xl sm:font-bold text-black text-center">Featured Jobs</h2>
+      <p className="text-center text-gray-600 mt-2 mb-4 text-[14px] sm:text-[18px]">Explore the latest job openings in your field</p>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 mt-8 mb-4">
         {jobs.map((item) => {
           const isExpanded = expandedIds.includes(item.id)
           const shortDesc = item.description.slice(0, 60) + '...'

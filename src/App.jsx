@@ -1,6 +1,5 @@
 import React from 'react'
 import Dashboard from './pages/Dashboard'
-import Jobs from './pages/Jobs'
 import { Routes, Route } from 'react-router-dom'
 import NavBar from './components/NavBar'
 
@@ -25,7 +24,6 @@ const App = () => {
     <div>
     <Routes>
         <Route path='/' element={<Dashboard/>}/>
-        <Route path='/jobs' element={<Jobs/>}/>
     </Routes>
     </div>
     </>

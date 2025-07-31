@@ -9,7 +9,7 @@ const About = () => {
         <div className="w-full md:w-1/2">
           <div className="h-80 bg-gray-200 rounded-xl overflow-hidden shadow-md">
             <img
-              src="public/job-bg.jpg"
+              src="job-bg.jpg"
               alt="About us"
               className="w-full h-full object-cover"
             />

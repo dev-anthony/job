@@ -6,19 +6,19 @@ const Blog = () => {
       id: 1,
       title: '5 Tips to Land Your Dream Job Faster',
       snippet: 'Searching for the perfect job can be tough. Here are 5 proven strategies that will help you stand out and get hired faster...',
-      image: '/blog1.jpg',
+      image: '/public/public/blog1.jpg',
     },
     {
       id: 2,
       title: 'Remote Work: The New Normal in 2025',
       snippet: 'Remote jobs have transformed the way we work. Discover the benefits and how to make the most of a remote career...',
-      image: '/blog2.jpg',
+      image: '/public/blog2.jpg',
     },
     {
       id: 3,
       title: 'Top Skills Employers Are Looking For Today',
       snippet: 'Employers want more than just a degree. Here’s a list of in-demand skills that can boost your chances of getting hired...',
-      image: '/blog3.jpg',
+      image: '/public/blog3.jpg',
     },
   ]
 

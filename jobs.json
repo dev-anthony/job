@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "TechSavvy",
+    "location": "Remote",
+    "type": "Full-time",
+    "category": "Development",
+    "salary": "$60,000 - $80,000",
+    "description": "Work on React-based applications and collaborate with a design team to build responsive UIs."
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Designer",
+    "company": "DesignPro",
+    "location": "New York, NY",
+    "type": "Contract",
+    "category": "Design",
+    "salary": "$40/hr",
+    "description": "Create wireframes and prototypes for web and mobile platforms. Adobe XD/Figma skills required."
+  },
+  {
+    "id": 3,
+    "title": "Backend Developer",
+    "company": "DataCore",
+    "location": "San Francisco, CA",
+    "type": "Full-time",
+    "category": "Development",
+    "salary": "$85,000 - $110,000",
+    "description": "Work with Node.js and PostgreSQL to build scalable backend services and APIs."
+  },
+  {
+    "id": 4,
+    "title": "Marketing Associate",
+    "company": "GrowthHackers",
+    "location": "Remote",
+    "type": "Internship",
+    "category": "Marketing",
+    "salary": "$1000/month",
+    "description": "Assist the team with campaign strategies, content creation, and performance analysis."
+  }
+]
